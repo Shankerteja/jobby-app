@@ -1,0 +1,135 @@
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #272727;
+}
+.nav-items-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.nav-links-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding-left: 0px;
+  flex-grow: 1;
+}
+@media screen and (min-width: 786px) {
+  .nav-links-list {
+    display: none;
+  }
+}
+.banner-container {
+  height: 100vh;
+  background-color: #121212;
+}
+.nav-logo {
+  height: 25px;
+}
+@media screen and (min-width: 786px) {
+  .nav-logo {
+    height: 30px;
+  }
+  .nav-items-container {
+    padding: 15px;
+  }
+}
+.nav-item {
+  margin-left: 13px;
+}
+.nav-links-list-lg {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  color: white;
+  padding-left: 0px;
+}
+
+.nav-item-lg {
+  display: none;
+}
+.logout-button {
+  display: none;
+}
+@media screen and (min-width: 786px) {
+  .nav-links-list {
+    display: none;
+  }
+  .nav-item-lg {
+    display: block;
+    margin-left: 12px;
+    font-family: Roboto;
+    font-weight: bold;
+  }
+  .logout-button {
+    display: block;
+    background-color: #4f46e5;
+    padding: 8px 20px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 3px;
+  }
+}
+.banner-button {
+  background-color: #4f46e5;
+  padding: 8px 18px;
+  color: white;
+  font-family: Roboto;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+}
+.banner-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+  background-size: cover;
+}
+
+.content-heading {
+  font-family: Roboto;
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+  margin-top: 0px;
+  padding-top: 20px;
+}
+.description {
+  color: #f1f5f9;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.content-container {
+  padding: 14px;
+}
+@media screen and (min-width: 786px) {
+  .banner-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 90vh;
+  }
+  .content-container {
+    width: 40%;
+    margin-left: 40px;
+  }
+  .content-heading {
+    font-size: 55px;
+  }
+  .description {
+    font-size: 22px;
+  }
+  .banner-button {
+    padding: 14px 28px;
+  }
+}
