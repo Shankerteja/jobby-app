@@ -71,7 +71,7 @@ class LoginPage extends Component {
                 id="username"
                 type="text"
                 className="username-input"
-                placeholder="Username"
+                placeholder="Username: rahul"
                 onChange={this.getusername}
                 value={username}
               />
@@ -84,7 +84,7 @@ class LoginPage extends Component {
                 id="password"
                 type="password"
                 className="username-input"
-                placeholder="Password"
+                placeholder="Password: rahul@2021"
                 onChange={this.getPassword}
                 value={password}
               />
